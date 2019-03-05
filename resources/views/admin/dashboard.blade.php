@@ -20,7 +20,7 @@
                         <div class="card-icon">
                         <i class="material-icons">content_copy</i>
                         </div>
-                        <p class="card-category">Category / Space</p>
+                        <p class="card-category">Category / Item</p>
                         <h3 class="card-title">{{$categoryCount}}/{{$itemCount}}</h3>
                     </div>
                     <div class="card-footer">
