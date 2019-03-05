@@ -183,8 +183,8 @@
                                         <img src="{{ asset('upload/item/'.$item->image) }}" class="img-responsive" alt="Food" >
                                         <div class="menu-desc text-center">
                                             <span>
-                                                <h3>Tomato Curry</h3>
-                                                Natalie &amp; Justin Cleaning by Justin Younger
+                                                <h3>{{ $item->name }}</h3>
+                                                {{ $item->description }}
                                             </span>
                                         </div>
                                     </a>
